@@ -13,6 +13,11 @@ export function addLinkSnippet(link) {
   store.dispatch(actions.addLinkSnippet(link));
 }
 
+
+export function addImage(image) {
+  store.dispatch(actions.addImage(image));
+}
+
 export function toggleMsgLoader() {
   store.dispatch(actions.toggleMsgLoader());
 }

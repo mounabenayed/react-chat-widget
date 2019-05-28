@@ -39,6 +39,14 @@ export function addLinkSnippet(link) {
   };
 }
 
+
+export function addImage(image) {
+  return {
+    type: actions.ADD_NEW_IMAGE,
+    image
+  };
+}
+
 export function renderCustomComponent(component, props, showAvatar) {
   return {
     type: actions.ADD_COMPONENT_MESSAGE,
